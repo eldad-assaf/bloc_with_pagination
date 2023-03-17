@@ -10,5 +10,5 @@ Displays a list of news articles with their title, description, and an image (if
 Tapping on an article opens it in the user's default web browser
 
 <p float="left">
-  <img src="login-screen.png" alt="" width="300" />
+  <img src="bloc_pagination.png" alt="" width="300" />
 </p>
