@@ -1,16 +1,14 @@
-# bloc_with_pagination
+Flutter News App
 
-A new Flutter project.
+This Flutter app demonstrates how to use the BLoC pattern with pagination to fetch news articles from a mock API.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+Fetches mock news articles using the http package
+Implements pagination with the bloc package to fetch more articles when the user scrolls to the end of the screen
+Displays a list of news articles with their title, description, and an image (if available)
+Tapping on an article opens it in the user's default web browser
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p float="left">
+  <img src="login-screen.png" alt="" width="300" />
+</p>
