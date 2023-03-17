@@ -1,4 +1,3 @@
-import 'dart:io';
 
 import 'package:bloc_with_pagination/bloc/bloc.dart';
 import 'package:bloc_with_pagination/bloc/state.dart';
@@ -20,7 +19,7 @@ class PostUi extends StatelessWidget {
           } else if (state is PostSuccessState) {
             var posts = state.posts;
             return ListView.builder(
-              controller: context.read<PostBloc>().scrollController, //27:00
+              controller: context.read<PostBloc>().scrollController, 
 
               itemCount: context.read<PostBloc>().isLoadingMore
                   ? posts.length + 1

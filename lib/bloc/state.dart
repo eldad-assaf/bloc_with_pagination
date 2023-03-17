@@ -1,4 +1,4 @@
-//8:00
+
 
 abstract class PostState {
   final posts;
